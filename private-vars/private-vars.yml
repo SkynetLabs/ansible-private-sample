@@ -1,0 +1,13 @@
+---
+
+# Private variables that do not need to be in or do not require LastPass
+#
+# Example:
+# incoming_ips_ip_ranges_block:
+#   - "64.145.93.0/24"
+#   - "76.164.193.0/24"
+#   - "95.142.120.0/24"
+
+# incoming_ips_ip_ranges_unblock:
+#   # Namebase IP - do not block!
+#   - "52.43.158.89"
