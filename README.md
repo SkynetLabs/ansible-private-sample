@@ -6,7 +6,7 @@ This sample should be forked to a personal or organization's Github and made pri
 Then when using ansible, your version of this repo should live on the same directory level as the ansible-playbooks repo.
 
 ```
-ansible-dirs/
+parentdir/
    ansible-private/
    ansible-playbooks/
 ```
