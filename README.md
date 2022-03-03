@@ -19,8 +19,25 @@ cd ansible-private
 ```
 ./rename.sh <your github username>
 ```
+After running the rename script you will have the following remotes:
+```
+$ git remote -vv
+origin	git@github.com:<your Github username>/ansible-private.git (fetch)
+origin	git@github.com:<your Github username>/ansible-private.git (push)
+skynet	git@github.com:SkynetLabs/ansible-private-sample.git (fetch)
+skynet	git@github.com:SkynetLabs/ansible-private-sample.git (push)
+```
 
-Then when using ansible, your version of this repo should live on the same directory level as the ansible-playbooks repo.
+
+**NOTE**  
+Once you update the repository your git history will diverge this repo. In order
+to pull updates you will need to run the following `git pull` command:
+
+```
+git pull skynet main --allow-unrelated-histories
+```
+
+When using ansible, your version of this repo should live on the same directory level as the ansible-playbooks repo.
 
 ```
 parentdir/
