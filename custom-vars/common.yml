@@ -1,0 +1,6 @@
+---
+# Common settings across clusters
+
+webportal_user_authorized_keys: "..."
+ssl_support_email: "..."
+git_checkout_email: "..."
